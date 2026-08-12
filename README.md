@@ -1,0 +1,30 @@
+# Deep Learning — Aulas Práticas
+
+Material das aulas práticas da disciplina de Aprendizado Profundo (graduação).
+Os notebooks são feitos para rodar no **Google Colab** — não é preciso instalar nada.
+
+> **Como funciona:** cada aula é publicada aqui **sem as respostas**. Ao final da aula,
+> as soluções são publicadas na pasta `solucoes/`.
+
+| Tópico 💥 | Descrição 📘 | Solução |
+|:--- |:---|:---|
+| [Introdução ao PyTorch e Conceitos Básicos](aulas_praticas/Basics.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Basics.ipynb) | Tensores, Datasets & DataLoaders, `nn.Module`, loop de treinamento, autograd e um desafio de CNN no Fashion-MNIST. | _publicada após a aula_ |
+
+## Antes de começar
+
+1. Abra o notebook no Colab pelo badge acima.
+2. Vá em **Ambiente de execução → Alterar o tipo de ambiente de execução → GPU (T4)**.
+3. Rode a primeira célula (diagnóstico) e confira que a GPU aparece.
+
+Se quiser rodar localmente, veja as
+[instruções de instalação do PyTorch](https://pytorch.org/get-started/locally/).
+
+## Como estudar com este material
+
+Os notebooks são feitos para serem **executados**, não lidos. Rode cada célula, mude os valores,
+quebre de propósito e veja o que acontece — é assim que os shapes e os erros de PyTorch entram na
+cabeça. Nos exercícios, tente até travar de verdade antes de olhar a solução.
+
+## Créditos
+
+Material adaptado dos notebooks da disciplina, de autoria de Lívia Cereja.

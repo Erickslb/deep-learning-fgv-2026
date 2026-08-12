@@ -1,0 +1,33 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# datasets baixados pelos notebooks (FashionMNIST etc.)
+data/
+aulas_praticas/data/
+solucoes/data/
+
+# checkpoints salvos pelas células de save/load
+*.pth
+
+# ---------------------------------------------------------------------------
+# MATERIAL DO MONITOR — nada abaixo desta linha vai para o repositório público.
+#
+# O histórico do git é permanente: um arquivo commitado por engano continua
+# acessível mesmo depois de apagado num commit posterior. Por isso tudo que
+# revela o gabarito fica fora do índice desde o começo.
+#
+# Faça backup desta pasta em outro lugar (repositório PRIVADO, drive, etc).
+# ---------------------------------------------------------------------------
+
+# notebooks-mestre, com as respostas
+_fonte/
+
+# gerador das versões aluno/solução
+scripts/
+
+# guias de condução da aula: contêm o desafio da CNN resolvido
+GUIA_MONITOR.md
+REVISAO_CONCEITUAL.md
+DIFERENCAS_DO_ORIGINAL.md
