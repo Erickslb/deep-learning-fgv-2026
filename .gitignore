@@ -31,3 +31,12 @@ scripts/
 GUIA_MONITOR.md
 REVISAO_CONCEITUAL.md
 DIFERENCAS_DO_ORIGINAL.md
+
+# Soluções: ignoradas para que um `git add -A` distraído não publique o
+# gabarito antes da hora. Ao final da aula, publique de propósito com:
+#
+#     git add -f solucoes/ && git commit -m "Aula 1: soluções" && git push
+#
+# Depois do primeiro commit o arquivo passa a ser rastreado e esta linha
+# deixa de ter efeito sobre ele.
+solucoes/
