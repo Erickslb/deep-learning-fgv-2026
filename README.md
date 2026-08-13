@@ -19,15 +19,6 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 Se quiser rodar localmente, veja as
 [instruções de instalação do PyTorch](https://pytorch.org/get-started/locally/).
 
-## Como estudar com este material
-
-Os notebooks são feitos para serem **executados**, não lidos. Rode cada célula, mude os valores,
-quebre de propósito e veja o que acontece — é assim que os shapes e os erros de PyTorch entram na
-cabeça. Nos exercícios, tente até travar de verdade antes de olhar a solução.
-
-A solução está disponível desde já, mas ela vale bem menos lida do que reconstruída: o erro que você
-cometeu sozinho é o que você não repete na prova. Use-a para conferir o seu resultado e para
-comparar abordagens, não como ponto de partida.
 
 ## Créditos
 
