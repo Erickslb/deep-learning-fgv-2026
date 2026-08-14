@@ -6,9 +6,9 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 > **Como funciona:** em `aulas_praticas/` ficam os notebooks com os exercícios em aberto, que é por
 > onde você deve começar. Em `solucoes/` fica a versão resolvida da mesma aula.
 
-| Tópico 💥 | Descrição 📘 | Solução |
-|:--- |:---|:---|
-| [Introdução ao PyTorch e Conceitos Básicos](aulas_praticas/Basics.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Basics.ipynb) | Tensores, Datasets & DataLoaders, `nn.Module`, loop de treinamento, autograd e um desafio de CNN no Fashion-MNIST. | [notebook](solucoes/Basics.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/Basics.ipynb) |
+| Tópico 💥 | Descrição 📘 | Solução | Feedback |
+|:--- |:---|:---|:---|
+| [Introdução ao PyTorch e Conceitos Básicos](aulas_praticas/Basics.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Basics.ipynb) | Tensores, Datasets & DataLoaders, `nn.Module`, loop de treinamento, autograd e um desafio de CNN no Fashion-MNIST. | [notebook](solucoes/Basics.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/Basics.ipynb) | [Formulário de feedback](https://forms.gle/29kofDwaRb3uMJR97) |
 
 ## Antes de começar
 
