@@ -27,10 +27,8 @@ _fonte/
 # gerador das versões aluno/solução
 scripts/
 
-# guias de condução da aula: contêm o desafio da CNN resolvido
-GUIA_MONITOR.md
-REVISAO_CONCEITUAL.md
-DIFERENCAS_DO_ORIGINAL.md
+# guias de condução das aulas: contêm os exercícios resolvidos
+monitoria/
 
 # Soluções: ignoradas para que um `git add -A` distraído não publique o
 # gabarito antes da hora. Ao final da aula, publique de propósito com:
