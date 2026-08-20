@@ -11,30 +11,12 @@ solucoes/data/
 # checkpoints salvos pelas células de save/load
 *.pth
 
-# ---------------------------------------------------------------------------
-# MATERIAL DO MONITOR — nada abaixo desta linha vai para o repositório público.
-#
-# O histórico do git é permanente: um arquivo commitado por engano continua
-# acessível mesmo depois de apagado num commit posterior. Por isso tudo que
-# revela o gabarito fica fora do índice desde o começo.
-#
-# Faça backup desta pasta em outro lugar (repositório PRIVADO, drive, etc).
-# ---------------------------------------------------------------------------
+--------------------------------------------------------------
 
-# notebooks-mestre, com as respostas
+# Material do monitor — não deve ir para o repositório público
 _fonte/
-
-# gerador das versões aluno/solução
 scripts/
-
-# guias de condução das aulas: contêm os exercícios resolvidos
 monitoria/
 
-# Soluções: ignoradas para que um `git add -A` distraído não publique o
-# gabarito antes da hora. Ao final da aula, publique de propósito com:
-#
-#     git add -f solucoes/ && git commit -m "Aula 1: soluções" && git push
-#
-# Depois do primeiro commit o arquivo passa a ser rastreado e esta linha
-# deixa de ter efeito sobre ele.
+# Publique o gabarito de propósito, com: git add -f solucoes/
 solucoes/
