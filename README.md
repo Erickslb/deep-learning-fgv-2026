@@ -24,6 +24,9 @@ Aula 3 roda Faster R-CNN e Mask R-CNN; nenhuma das duas termina em tempo razoáv
 Se quiser rodar localmente, veja as
 [instruções de instalação do PyTorch](https://pytorch.org/get-started/locally/).
 
+## Notion com material do curso
+
+[Deep Learning --- 2026.2](https://app.notion.com/p/Deep-Learning-2026-2-3bc7a88448a680eeb110ea3cd3931d48)
 
 ## Créditos
 
