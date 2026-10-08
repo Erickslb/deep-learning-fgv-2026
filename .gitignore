@@ -8,8 +8,10 @@ data/
 aulas_praticas/data/
 solucoes/data/
 
-# checkpoints salvos pelas células de save/load
+# checkpoints e saídas salvos pelos notebooks
 *.pth
+*.pt
+resultados_gan/
 
 --------------------------------------------------------------
 
