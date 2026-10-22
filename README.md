@@ -14,6 +14,7 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 | [RNN, LSTM e GRU](aulas_praticas/RNN.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/RNN.ipynb) | Previsão de séries temporais com redes recorrentes: comparação entre RNN simples, LSTM e GRU numa senoide e em séries reais de preço de ação e de clima. | [notebook](solucoes/RNN.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/RNN.ipynb) | _a definir_ |
 | [GANs: DCGAN e GAN condicional](aulas_praticas/GAN.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/GAN.ipynb) | Você implementa o passo de treino de uma DCGAN que gera rostos, investiga o espaço latente (o que muda quando o ruído $z$ vem de outra distribuição) e constrói uma GAN condicional no Fashion-MNIST. | [notebook](solucoes/GAN.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/GAN.ipynb) | _a definir_ |
 | [Autoencoders: do AE ao VAE](aulas_praticas/Autoencoders.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Autoencoders.ipynb) | Autoencoder convolucional no MNIST (você escreve o decoder), versão denoising e, por fim, um VAE — com o reparametrization trick e a KL em forma fechada — comparando os espaços latentes de AE e VAE. | [notebook](solucoes/Autoencoders.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/Autoencoders.ipynb) | _a definir_ |
+| [Self-Supervised: SwAV](aulas_praticas/SwAV.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/SwAV.ipynb) | Aprendizado auto-supervisionado com SwAV no CIFAR-10: aumentação multi-crop, atribuição de clusters com Sinkhorn-Knopp e visualização dos protótipos aprendidos com t-SNE. | — (exercícios em aberto, sem gabarito) | _a definir_ |
 
 ## Antes de começar
 
@@ -21,8 +22,9 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 2. Vá em **Ambiente de execução → Alterar o tipo de ambiente de execução → GPU (T4)**.
 3. Rode a primeira célula (diagnóstico) e confira que a GPU aparece.
 
-A GPU é **obrigatória nas Aulas 2, 3 e 5** — a Aula 2 treina uma ResNet34, a Aula 3 roda Faster
-R-CNN e Mask R-CNN, e a Aula 5 treina duas GANs; nenhuma delas termina em tempo razoável na CPU.
+A GPU é **obrigatória nas Aulas 2, 3, 5 e 7** — a Aula 2 treina uma ResNet34, a Aula 3 roda Faster
+R-CNN e Mask R-CNN, a Aula 5 treina duas GANs e a Aula 7 treina o SwAV do zero; nenhuma delas
+termina em tempo razoável na CPU.
 Nas Aulas 1, 4 e 6 ela é opcional: as redes são pequenas e rodam na CPU sem incômodo.
 
 Se quiser rodar localmente, veja as
