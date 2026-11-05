@@ -16,6 +16,7 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 | [Autoencoders: do AE ao VAE](aulas_praticas/Autoencoders.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Autoencoders.ipynb) | Autoencoder convolucional no MNIST (você escreve o decoder), versão denoising e, por fim, um VAE — com o reparametrization trick e a KL em forma fechada — comparando os espaços latentes de AE e VAE. | [notebook](solucoes/Autoencoders.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/Autoencoders.ipynb) | _a definir_ |
 | [Self-Supervised: SwAV](aulas_praticas/SwAV.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/SwAV.ipynb) | Aprendizado auto-supervisionado com SwAV no CIFAR-10: aumentação multi-crop, atribuição de clusters com Sinkhorn-Knopp e visualização dos protótipos aprendidos com t-SNE. | — (exercícios em aberto, sem gabarito) | _a definir_ |
 | [Aprendendo com dados não rotulados](aulas_praticas/Unlabeled_Data.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Unlabeled_Data.ipynb) | Três formas de usar dados sem rótulo no MNIST: Deep k-Means (você escreve a loss de clustering), SimCLR (você escreve a NT-Xent) com avaliação linear, e FixMatch com só 100 imagens rotuladas (você escreve a loss não supervisionada). | [notebook](solucoes/Unlabeled_Data.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/solucoes/Unlabeled_Data.ipynb) | _a definir_ |
+| [Visual Foundation Models](aulas_praticas/Visual_Foundation_Models.ipynb) [![Abra no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Erickslb/deep-learning-fgv-2026/blob/main/aulas_praticas/Visual_Foundation_Models.ipynb) | ViT, Swin, MAE, DINO/MSN, SAM e Matcher com modelos pré-treinados: você escreve o patch embedding e a interpolação dos position embeddings do ViT, as janelas (com shift) do Swin, o random masking do MAE e o casamento de patches de um Matcher simplificado (DINOv2 + SAM) que segmenta objetos a partir de um único exemplo. | _publicada depois da aula_ | _a definir_ |
 
 ## Antes de começar
 
@@ -25,7 +26,8 @@ Os notebooks são feitos para rodar no **Google Colab** — não é preciso inst
 
 A GPU é **obrigatória nas Aulas 2, 3, 5 e 7** — a Aula 2 treina uma ResNet34, a Aula 3 roda Faster
 R-CNN e Mask R-CNN, a Aula 5 treina duas GANs e a Aula 7 treina o SwAV do zero; nenhuma delas
-termina em tempo razoável na CPU.
+termina em tempo razoável na CPU. Na aula de Visual Foundation Models ela também é obrigatória: o
+notebook roda vários ViT-B pré-treinados, o SAM e o DINOv2 (uns 2,5 GB de modelos).
 Nas Aulas 1, 4 e 6 ela é opcional: as redes são pequenas e rodam na CPU sem incômodo.
 
 Se quiser rodar localmente, veja as
